@@ -5,7 +5,6 @@ class CreateHouses < ActiveRecord::Migration[6.1]
         t.string :address 
         t.integer :allowed_people_room
         t.integer :room_amount
-        t.array :accessories
         t.integer :price
         t.boolean :room_availables
         t.integer :review_id
